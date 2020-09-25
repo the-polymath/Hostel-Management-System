@@ -1,0 +1,148 @@
+html, body{
+    height: 100%;
+    margin:0;
+    font-family: Peace Sans;
+    background-color: #34495e;
+}
+.box{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 46%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    padding: 12px;
+    width: 80%;
+   text-align: center;
+   background: #191919;
+}
+h1{
+    color: ivory;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.payment-method {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+  }
+   
+  .method {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 100px;
+    padding-top: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #191919;
+    justify-content: space-between;
+    align-items: center;
+  }
+   
+  .card-logos {
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+  }
+   
+  .input-fields {
+    display: flex;
+    justify-content: center;
+  }
+   
+  .input-fields label {
+    display: block;
+    margin-bottom: 40px;
+    color: #b4b4b4;
+  }
+   
+  .info {
+    font-size: 12px;
+    font-weight: 300;
+    display: block;
+    margin-top: 70px;
+    margin-left: 50px;
+    opacity: .8;
+    color: #f5f5f5;
+  }
+   
+  div[class*='column'] {
+    width: 382px;
+  }
+
+  ::placeholder{
+    color: #f5f5f5;
+}
+   
+  input[type='text'], input[type='date'],
+  input[type='password'] {
+    font-size: 16px;
+    width: 80%;
+    height: 50px;
+    padding-right: 50px;
+    padding-left: 2px;
+    color: rgba(238, 231, 231, 0.8);
+    border: 1px solid #6699ff;
+    border-radius: 6px;
+    background-color: #191919;
+    outline: none;
+    text-align: center;
+  }
+   
+  input[type='text']:focus, input[type='date']:focus,
+  input[type='password']:focus {
+    border-color: #99ff33;
+  }
+   
+  
+   
+  .small-inputs {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+   
+  .small-inputs div {
+    width: 170px;
+  }
+
+  .panel-footer {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .btn {
+    font-size: 16px;
+    width: 163px;
+    height: 48px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 23px;
+    margin: 110px;
+  }
+   
+  .back-btn {
+    color: #f62f5e;
+    background: #f5f5f5;
+  }
+   
+  .next-btn {
+    color: #f5f5f5;
+    background: #f62f5e;
+  }
+   
+   
+  .btn:hover {
+    transform: scale(1.2);
+  }
